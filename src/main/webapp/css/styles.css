@@ -1,0 +1,213 @@
+/* ---------- Estilo geral ---------- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* ---------- Links e botões ---------- */
+.cadastrar-link, .btn-submit, .btn-cancel {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.cadastrar-link {
+    background-color: #27ae60;
+    color: white;
+}
+
+.cadastrar-link:hover {
+    background-color: #1e8449;
+}
+
+.btn {
+    padding: 6px 12px;
+    background-color: #2980b9;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9em;
+    margin-right: 5px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #1f618d;
+}
+
+.btn-delete {
+    background-color: #c0392b;
+}
+
+.btn-delete:hover {
+    background-color: #922b21;
+}
+
+/* ---------- Formulários de busca ---------- */
+.busca-form {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.busca-form input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.busca-form input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #2980b9;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.busca-form input[type="submit"]:hover {
+    background-color: #1f618d;
+}
+
+/* ---------- Tabela ---------- */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background: linear-gradient(to right, #2980b9, #6dd5fa);
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f6fa;
+}
+
+tr:hover {
+    background-color: #d6eaf8;
+}
+
+/* Formulários modernos */
+.form-container {
+    max-width: 700px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.form-container h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: #2980b9;
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 0.95em;
+}
+
+.form-container textarea {
+    grid-column: 1 / -1;
+    resize: vertical;
+}
+
+.btn-submit {
+    grid-column: 1 / -1;
+    padding: 12px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #1e8449;
+}
+
+.btn-cancel {
+    grid-column: 1 / -1;
+    padding: 12px;
+    background-color: #c0392b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
+.btn-cancel:hover {
+    background-color: #922b21;
+}
+
+
+/* ---------- Detalhes do item ---------- */
+.detalhes-container {
+    max-width: 700px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.detalhes-container h2 {
+    color: #2980b9;
+    margin-bottom: 15px;
+}
+
+.detalhes-container p {
+    margin: 8px 0;
+}
